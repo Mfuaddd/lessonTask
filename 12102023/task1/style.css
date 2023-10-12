@@ -1,0 +1,41 @@
+.box{
+    display: inline-block;
+    height: 20px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(220, 220, 220);
+    position: relative;
+    margin: 5px;
+}
+#search{
+    border: none;
+    background-color: rgb(220, 220, 220);
+    position: absolute;
+    border-radius: 0px 10px 10px 0px ;
+    height: 12px;
+    width: 80px;
+    top:4px;
+    left: 20px;
+    outline: none;
+}
+.image{
+    background-color: rgb(220, 220, 220);
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top:2px;
+    left:2px;
+    border-radius: 50%;
+}
+#ico{
+    font-size: 10px;
+    position: absolute;
+    left:2px;
+    top:2px;
+}
+.image:hover{
+    transition: 250ms;
+    background-color: rgb(180, 180, 180);
+
+}

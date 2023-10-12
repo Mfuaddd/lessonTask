@@ -1,0 +1,82 @@
+.sbody{
+    height: 70px;
+    width: 30px;
+    position: relative;
+    left:100px;
+    top:50px;
+    background-color: black;
+
+}
+.sleftarm{
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left:-15px;
+    top:0;
+    background-color: black;
+}
+.srightarm{
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    left:35px;
+    transform-origin: top left;
+    top:0;
+    background-color: black;
+}
+
+.sbody:hover .srightarm{
+    transform: rotate(-120deg);
+    transition: 500ms;
+}
+
+.sleftleg{
+    height: 70px;
+    width: 10px;
+    position: absolute;
+    left:0;
+    top:75px;
+    background-color: black;
+}
+
+.srightleg{
+    height: 70px;
+    width: 10px;
+    position: absolute;
+    left: 20px;
+    top:75px;
+    background-color: black;
+}
+.shead{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left:0;
+    top:-35px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+.slefteye{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left:5px;
+    top:-25px;
+    background-color:white;
+    border-radius: 50%;
+    z-index: 1;
+}
+.srighteye{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left:20px;
+    top:-25px;
+    background-color:white;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+
