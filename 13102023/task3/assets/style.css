@@ -1,0 +1,212 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: rgb(44, 62, 80);
+    height: 72px;
+    padding: 0px 20px;
+}
+nav .container{
+    margin: auto;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+}
+nav .container .logo span{
+    font-weight: bold;
+    font-size: 32px;
+    color:white;
+}
+nav .container .menu{
+    display: flex;
+    gap:20px;
+}
+nav .container .menu li{
+    /* font-weight: bold; */
+    font-size: 24px;
+    color:white;
+}
+
+main .start{
+    background-color: rgb(26, 188, 156);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    /* align-content: center; */
+    width: 100%;
+    height: 600px;
+}
+main .start .image{
+    width: 200px;
+}
+main .start .text{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+main .start .text h1{
+    font-size: 64px;
+}
+main .start .text span{
+    font-size: 22px;
+}
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.star .line{
+    height: 2px;
+    width: 100px;
+    border-radius: 5px;
+}
+main .portfolio{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width: 100%;
+    min-height: 800px;
+}
+main .portfolio h1{
+    color: rgb(44, 62, 80);
+    font-weight: bold;
+    font-size: 48px;    
+}
+main .portfolio .cube{
+    max-width: 1400px ;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+main .portfolio .cube .cube-house{
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+}
+main .portfolio .cube div{
+    background-color: rgb(26, 188, 156);
+    position: relative;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+}
+main .portfolio .cube i{
+    font-size: 100px;
+    position:absolute;
+    left:150px;
+    top:100px;
+    color: white;
+}
+main .portfolio .cube img{
+    border-radius: 10px;
+    position:absolute;
+    height: 300px;
+    width: 400px;
+}
+main .portfolio .cube img:hover{
+    opacity: 0.1;
+}
+main .about{
+    background-color: rgb(26, 188, 156);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 100%;
+    height: 600px;
+}
+main .about h1{
+    color:white;
+    font-weight: bold;
+    font-size: 48px;    
+}
+main .about .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    gap:20px;
+}
+
+main .about .text span{
+    font-size: 24px;
+    color: white;
+}
+main .about button{
+    border-radius: 10px;
+    height: 75px;
+    width: 200px;
+    border: 2px solid white;
+    background-color: rgb(26, 188, 156) ;
+    color: white;
+    font-size: 20px;    
+}
+main .about button:hover{
+    background-color: white ;
+    color: black;
+
+}
+main .contact{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width: 100%;
+    height: 800px;
+}
+main .contact h1{
+    color: rgb(44, 62, 80);
+    font-weight: bold;
+    font-size: 48px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bwhite{
+    background-color: white;
+}
+.cwhite{
+    color:white
+}
+
+.bblue{
+    background-color: rgb(44, 62, 80);
+}
+.cblue{
+    color: rgb(44, 62, 80);
+
+}

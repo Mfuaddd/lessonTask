@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.container .box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(133, 248, 133);
+    border-radius: 10px;
+}
+.container .box .image img{
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+.container .box span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .box .text{
+    margin: 1px 5px;
+}
+.container .box .price{
+    font-weight: bold;
+    margin: 1px 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .box{
+        background-color: rgb(241, 126, 126);
+    }
+  }
