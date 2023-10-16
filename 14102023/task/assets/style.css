@@ -1,0 +1,184 @@
+:root{
+    --grey: #757575
+}
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAV START */
+
+nav{
+    overflow: auto;
+    padding: 16px;
+    max-width: 20%;
+    height: 100%;
+    position: fixed;
+}
+nav .nav-img{
+    height: 150px;
+    width: 150px;
+}
+nav .nav-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+nav h4{
+    font-size: 20px;
+    margin: 15px 0;
+}
+nav p{
+    font-size: 15px;
+    color: var(--grey);
+    margin: 15px 0;
+} 
+nav ul li{
+    padding: 10px 0;
+}
+nav ul li a{
+    color: black;
+}
+nav ul li i{
+    margin-right: 16px;
+}
+nav .nav-icons{
+    margin: 20px 0;
+    font-size: 18px;
+}
+/* NAV END */
+/* MAIN START */
+main{
+    margin-left: 20%;
+    margin-right: 10%;
+    background-color: #f1f1f1;
+    overflow: auto;
+    padding: 15px;
+}
+/* HEADER START */
+main header .filter{
+    margin: 16px 0;
+    padding: 16px 0;
+}
+main header .filter *{
+    display: inline-block;
+}
+main header .filter span{
+    padding: 8px 16px;
+}
+main header .filter ul li{
+    padding: 8px 16px;
+    background-color: white;
+}
+main header .filter ul li i{
+    margin-right: 16px;
+}
+main header hr{
+    display: block;
+    background-color: gray;
+    height: 5px;
+    margin: 15px 0;
+}
+
+/* HEADER END */
+/* PROJECTS START */
+
+#projects .container{
+    overflow: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:15px;
+}
+#projects .container .box{
+    /* max-width: 400px; */
+    width: 100%;
+    background-color: white;
+}
+#projects .container .box h3{
+    margin: 16px;
+}
+#projects .container .box p{
+    margin: 16px;
+}
+#projects .pagination ul{
+    text-align: center;
+    margin: 30px 0;
+}
+#projects .pagination ul li{
+    display: inline;
+    padding: 8px 16px;
+}
+#projects .pagination ul li:hover{
+    background-color: black;
+    color: white;
+}
+/* PROJECTS END */
+/* ABOUT START */
+
+#about .images{
+    display: flex;
+    gap:15px;
+}
+#about .images img{
+    width: 100%;
+}
+#about .me h2{
+    margin: 15px 0;
+}
+#about .skills h2{
+    color: gray;
+    margin: 15px 0;
+    font-weight: lighter;
+}
+#about .skills h3{
+    color: gray;
+    margin: 10px 0;
+    font-weight: lighter;
+}
+#about .skills .bar{
+    background-color: rgb(192, 192, 192);
+    width: 100%;
+}
+#about .skills .bar .photography{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: gray;
+    height: 100%;
+    width: 95%; 
+}
+#about .skills .bar .web-design{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: gray;
+    height: 100%;
+    width: 85%; 
+}
+#about .skills .bar .photoshop{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: gray;
+    height: 100%;
+    width: 80%; 
+}
+#about .skills .btn{
+    display: inline-block;
+    padding: 16px 8px;
+    background-color: gray;
+    color: white;
+    margin: 20px 0;
+}
+#about .skills .btn:hover{
+    background-color: rgb(192, 192, 192);
+    color: black;
+
+}
+#about .skills .btn a i{
+    margin-right: 16px;
+}
+
+
+
+/* ABOUT END */
+/* MAIN END */
