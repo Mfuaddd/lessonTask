@@ -14,11 +14,15 @@
             <div class="logo">
                 <span>START BOOTSTRAP</span>
             </div>
-            <ul class="menu">
-                <li><a href=""></a>PORTFOLIO</li>
-                <li><a href=""></a>ABOUT</li>
-                <li><a href=""></a>CONTACT</li>
+            <ul class="sections">
+                <li class="li-portfolio"><a href="#l-portfolio">PORTFOLIO</a></li>
+                <li class="li-about"><a href="#l-about">ABOUT</a></li>
+                <li class="li-contact"><a href="#l-contact">CONTACT</a></li>
             </ul>
+            <div class="menu">
+                <span>MENU</span>
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
     </nav>
     <main>
@@ -38,7 +42,7 @@
                 <span>Graphic Artist - Web Designer - Illustrator</span>
             </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio"id="l-portfolio">
             <h1>PORTFOLIO</h1>
             <div class="star">
                 <div class="line bblue"></div>
@@ -72,7 +76,7 @@
                     </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="l-about">
             <h1>ABOUT</h1>
             <div class="star">
                 <div class="line bwhite"></div>
@@ -85,17 +89,63 @@
             </div>
             <button><i class="fa-solid fa-download"></i> Free Download!</button>
         </section>
-        <section class="contact">
+        <section class="contact"id="l-contact">
             <h1>CONTACT</h1>
             <div class="star">
                 <div class="line bblue"></div>
                 <i class="fa-solid fa-star cblue"></i>
                 <div class="line bblue"></div>
             </div>
+            <form class="form" action="">
+                <label for="tx">Full name</label>
+                <input class="inp-name" type="text" id="tx">
+                <label for="ema">Email address</label>
+                <input class="inp-name" type="email" id="ema">
+                <label for="tel">Phone number</label>
+                <input class="inp-name" type="tel" id="tel">
+                <label for="msg">Message</label>
+                <textarea id="msg" cols="40" rows="4"></textarea>
+                <input class="btn-submit" type="submit" value="Send">
+            </form>
         </section>
-
     </main>
     <footer>
+        <div class="ftr-info">
+            <div class="container">
+                <div class="location">
+                    <h1>LOCATION</h1>
+                    <span>2215 John Daniel Drive
+                        Clark, MO 65243</span>
+                </div>
+                <div class="around">
+                    <h1>AROUND THE WEB</h1>
+                    <div class="ftr-icons">
+                        <div class="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="linkedin">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="freelancer">
+                    <h1>ABOUT FREELANCER</h1>
+                    <span>Freelance is a free to use, MIT licensed Bootstrap theme created by Start <a href="">Bootstrap</a> .</span>
+                </div>
+
+            </div>
+           
+
+        </div>
+        <div class="copyright">
+            <span>Copyright © Your Website 2023</span>
+        </div>
 
     </footer>
     
