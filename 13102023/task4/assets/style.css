@@ -1,0 +1,286 @@
+:root {
+    --blue: rgb(29 128 159);
+    --gray: rgb(33 37 41);
+    --gold: rgb(236 184 7);
+}
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-wrap: wrap;
+
+}
+
+/* GLOBAL START */
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    flex-direction: column;
+}
+
+/* GLOBAL END */
+/* FIXED START */
+
+.menu{
+    position:fixed;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: white;
+}
+.up{
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: white;
+}
+
+/* FIXED END */
+/* HEADER START */
+
+header{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 400px 0;
+}
+header .container h1{
+    font-size: 92px;
+    color: var(--gray);
+}
+header .container h3{
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--gray);
+    margin-bottom: 48px;
+}
+header .container .btn{
+   background-color: var(--blue);
+   border-radius: 5px;
+   color: white; 
+   padding: 20px 40px;
+}
+header .container a:hover{
+    background-color: rgb(25 109 135);
+}
+ 
+/* HEADER END */
+/* ABOUT START */
+
+main .about{
+    min-height: 400px;
+    background-color: white;
+    padding: 120px 0;
+}
+main .about .container h2{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+main .about .container p{
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+main .about .container .btn{
+    background-color: var(--gray);
+    border-radius: 5px;
+    color: white;
+    padding: 20px 40px; 
+}
+
+/* ABOUT END */
+/* SERVICES START */
+
+main .services{
+    background-color: var(--blue);
+    padding: 120px 0;
+    text-align: center;
+}
+main .services .container h2{
+    display: block;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 48px;
+    
+}
+main .services .container h3{
+    display: block;
+    font-size: 16px;
+    color: var(--gold);
+}
+main .services .container .box{
+    flex-wrap: wrap;
+    margin:20px ;
+}
+main .services .container .box .subbox{
+    flex-direction: column;
+    max-width: 150px;
+    text-align: center;
+    margin: 0 106px;
+}
+main .services .container .box .subbox h4{
+    font-size: 24px;
+    color: white;
+    margin-top: 8px;
+}
+main .services .container .box .subbox p{
+    font-size: 16px;
+    color:white;
+}
+main .services .container .box .icon{
+    height: 112px;
+    font-size: 36px;
+    width: 112px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    color: var(--blue);
+    margin: 16px 106px;
+}
+/* SERVICES END */
+/* CALLOUT START */
+
+main .callout {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 240px 0;
+}
+main .callout .container h2{
+    font-size: 56px;
+    max-width: 480px;
+    margin-bottom:48px;
+    text-align: center;
+    color: var(--gray);
+}
+main .callout .container .btn{
+    background-color: var(--blue);
+    border-radius: 5px;
+    color: white; 
+    padding: 20px 40px;
+ }
+
+/* CALLOUT END */
+/* PORTFOLIO START */
+
+main .portfolio{
+    background-color: white;
+    padding: 120px 0;
+}
+main .portfolio .container .hdr h2{
+    display: block;
+    font-size: 48px;
+    color: var(--gray);
+    margin-bottom: 48px;
+    text-align: center;
+}
+main .portfolio .container .hdr h3{
+    display: block;
+    font-size: 16px;
+    color: var(--gold);
+    text-align: center;
+}
+main .portfolio .container .box{
+    flex-wrap: wrap;
+}
+main .portfolio .container .box h2{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+main .portfolio .container .box p{
+    color: white;
+    font-size: 20px;
+}
+main .portfolio .container .box .sub{
+    width: 800px;
+    height: 500px;
+    position: relative;
+}
+main .portfolio .container .box .sub img{
+    filter: brightness(80%);
+    display: block;
+    height: 100%;
+    width: 100%;
+    transition: 500ms;
+}
+main .portfolio .container .box .sub:hover .img{
+    width: 90%;
+    height: 85%;
+    /* clip-path: inset(50px 50px 50px 50px); */
+    transition: 500ms;
+}
+main .portfolio .container .box .sub .text{
+    position: absolute;
+    left: 64px;
+    bottom: 64px;
+}
+
+/* PORTFOLIO END */
+/* TWOBTN START */
+
+main .twobtn{
+    background-color: var(--blue);
+    padding: 120px 0;
+    text-align: center;
+}
+main .twobtn h2{
+    margin-bottom: 48px;
+    font-size: 32px;
+    color: white;
+}
+main .twobtn .btn-white{
+    border-radius: 5px;
+    padding: 20px 40px;
+    color: black;
+    background-color: white;
+    margin-right: 20px;
+}
+main .twobtn .btn-black{
+    border-radius: 5px;
+    color: white;
+    background-color: var(--gray);
+    padding: 20px 40px;
+}
+
+/* TWOBTN END */
+/* FOOTER START */
+footer{
+    padding: 120px 0;
+}
+footer p{
+    text-align: center;
+}
+footer .icons .da{
+    height: 64px;
+    font-size: 24px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    color: white;
+    margin: 32px 8px;
+}
+
+
+/* FOOTER END */
